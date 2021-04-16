@@ -11,6 +11,24 @@ h2 {
   line-height: 0.5em;
 }
 
+#watermark a {
+  text-decoration: underline;
+  color: rgb(255, 153, 0);
+}
+
+#watermark {
+  font-size: 14px;
+  font-weight: bold;
+  position: fixed;
+  bottom: 2px;
+  right: 5px;
+}
+
+#icon_offset {
+    bottom: -2px;
+    position: relative;
+}
+
 .container {
   max-width: 900px;
   margin: 30px auto;

@@ -6,7 +6,7 @@ const Stats = ({ stats }) => {
         return (
             <div className="stats">
                 <h2>{stats['subject']} {stats['course']}</h2>
-                <h2>{stats['year']}</h2>
+                <h2>{stats['year']}{stats['semester']}</h2>
                 <ul>
                     <li>Average: {stats['averages']}</li>
                     <li>Std. Dev: {stats['std_devs']}</li>

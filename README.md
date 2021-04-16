@@ -11,4 +11,4 @@ Supports year-ranges and semesters, ex:<br />
 
 
 
-Big thanks to @DonneyF for providing the grade data. Repo: https://github.com/DonneyF/ubc-pair-grade-data
+Big thanks to DonneyF for providing the grade data. Repo: https://github.com/DonneyF/ubc-pair-grade-data

@@ -15,7 +15,7 @@ const Entry = () => {
     const fetchGrades = async () => {
         const res = await fetch('https://qpk05wiya3.execute-api.us-west-2.amazonaws.com/grades?userEntry=' + text)
         const data = await res.json()
-        console.log(data)
+        // console.log(data)
         if (!data['failedQuery']) {
             setStats(data)
             setFailed(false)

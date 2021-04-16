@@ -88,14 +88,20 @@ li {
   color: rgb(184, 184, 184);
 }
 
-.stats {
+#stats {
   max-width: 275px;
-  max-height: 275px;
   margin: 50px auto !important;
   background-color: #3f68ff;
+  /* background-color: #ff9696; */
   color: white;
   font-weight: normal;
   padding: 30px;
   padding-top: 45px;
   border-radius: 10px;
+}
+
+#graph {
+  width: 320px;
+  height: 220px;
+  margin: 0 auto;
 }

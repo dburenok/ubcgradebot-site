@@ -11,6 +11,7 @@ function App() {
             <Header />
             <Entry />
             <div id="watermark">made by <a href="https://dburenok.com/">dmitriy</a> with <span id="icon_offset"><FaHeart color="orange" /></span></div>
+            <div id="repo_link"><a href="https://github.com/dburenok/ubcgradebot-site">GitHub Repo</a></div>
         </div>
     );
 }

@@ -5,9 +5,9 @@ https://ubcgradebot.com/
 
 ## How To Use
 Supports year-ranges and semesters, ex:<br />
-"math 200 2014-2020"<br />
-"math 200 2019s"<br />
-"math 200 2019" (this gets both 2019s and 2019w)<br />
+`math 200 2014-2020`<br />
+`math 200 2019s`<br />
+`math 200 2019` (this gets both 2019s and 2019w)<br />
 
 
 

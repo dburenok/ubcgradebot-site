@@ -32,7 +32,7 @@ const Entry = () => {
             </form>
 
             {(() => {
-                if (failed) {
+                if (failed || stats['message'] === "Internal Server Error") {
                     return <p style={{ color: "darkred" }}>Hmm... Something's not right.</p>
                 } else if (!failed && stats) {
                     return <Stats stats={stats} />

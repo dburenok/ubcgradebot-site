@@ -1,4 +1,4 @@
-// import { useState } from 'react'
+// import { useEffect } from 'react'
 // import Graph from './Graph'
 
 const Stats = ({ stats }) => {
@@ -60,7 +60,6 @@ const Stats = ({ stats }) => {
     } else {
         return ""
     }
-
 }
 
 export default Stats

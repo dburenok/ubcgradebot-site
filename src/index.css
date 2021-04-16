@@ -8,7 +8,8 @@ h1 {
 
 h2 {
   font-size: 36px;
-  line-height: 0.5em;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 #watermark a {
@@ -62,17 +63,14 @@ li {
 }
 
 ::placeholder {
-  /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: rgb(184, 184, 184);
 }
 
 :-ms-input-placeholder {
-  /* Internet Explorer 10-11 */
   color: rgb(184, 184, 184);
 }
 
 ::-ms-input-placeholder {
-  /* Microsoft Edge */
   color: rgb(184, 184, 184);
 }
 
@@ -81,5 +79,6 @@ li {
   margin: 50px auto !important;
   background-color: #f4f4f4;
   padding: 30px;
+  padding-top: 45px;
   border-radius: 15px;
 }

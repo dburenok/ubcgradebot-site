@@ -21,7 +21,7 @@ const Entry = () => {
     return (
         <>
             <form onSubmit={onSubmit}>
-                <input className="mainEntry" type="text" onChange={event => setText(event.target.value)} />
+                <input className="mainEntry" type="text" onChange={event => setText(event.target.value)} placeholder="ex. math 101 2014-2020" />
                 <button type="submit" hidden>Submit</button>
             </form>
 

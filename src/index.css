@@ -42,6 +42,21 @@ li {
   margin: 20px;
 }
 
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(215, 215, 215);
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: rgb(215, 215, 215);
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: rgb(215, 215, 215);
+}
+
 .stats {
-    margin-top: 50px;
+  margin-top: 50px;
 }

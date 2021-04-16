@@ -3,6 +3,7 @@ import Stats from './Stats'
 
 const Entry = () => {
 
+    const [failed, setFailed] = useState(false)
     const [stats, setStats] = useState('')
     const [text, setText] = useState('')
 
@@ -15,7 +16,12 @@ const Entry = () => {
         const res = await fetch('https://qpk05wiya3.execute-api.us-west-2.amazonaws.com/grades?userEntry=' + text)
         const data = await res.json()
         console.log(data)
-        setStats(data)
+        if (!data['failedQuery']) {
+            setStats(data)
+            setFailed(false)
+        } else {
+            setFailed(true)
+        }
     }
 
     return (
@@ -25,7 +31,14 @@ const Entry = () => {
                 <button type="submit" hidden>Submit</button>
             </form>
 
-            <Stats stats={stats} />
+            {(() => {
+                if (failed) {
+                    return <p style={{ color: "darkred" }}>Hmm... Something's not right.</p>
+                } else if (!failed && stats) {
+                    return <Stats stats={stats} />
+                }
+            })()}
+
         </>
     )
 }

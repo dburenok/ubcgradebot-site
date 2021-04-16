@@ -54,7 +54,7 @@ li {
   outline: none;
   width: 250px;
   padding: 10px;
-  background-color: #f1f1f1;
+  background-color: #f4f4f4;
   color: #3b3b3b;
   font-weight: normal;
   border-width: 0;
@@ -77,5 +77,9 @@ li {
 }
 
 .stats {
-  margin-top: 50px;
+  max-width: 500px;
+  margin: 50px auto !important;
+  background-color: #f4f4f4;
+  padding: 30px;
+  border-radius: 15px;
 }

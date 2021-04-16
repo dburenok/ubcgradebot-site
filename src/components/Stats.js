@@ -12,8 +12,9 @@ const Stats = ({ stats }) => {
                     <li>Average: {stats['averages']}
                         {(() => {
                             const grade = +stats['averages']
-
-                            if (grade < 50) {
+                            if (!grade) {
+                                return ""
+                            } else if (grade < 50) {
                                 return " (F)"
                             } else if (grade < 55) {
                                 return " (D)"

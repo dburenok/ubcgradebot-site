@@ -13,7 +13,7 @@ h2 {
 
 #watermark a {
   text-decoration: underline;
-  color: rgb(255, 153, 0);
+  color: orange;
 }
 
 #watermark {
@@ -22,11 +22,12 @@ h2 {
   position: fixed;
   bottom: 2px;
   right: 5px;
+  color: lightgray;
 }
 
 #icon_offset {
-    bottom: -2px;
-    position: relative;
+  bottom: -2px;
+  position: relative;
 }
 
 .container {

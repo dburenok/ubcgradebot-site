@@ -1,6 +1,7 @@
 # UBC Grade Bot
+## Lookup historical UBC grade distributions
 https://ubcgradebot.com/
-## Lookup histocial averages for UBC courses.
+
 
 ## How To Use
 Supports year-ranges and semesters, ex:

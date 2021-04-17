@@ -6,14 +6,14 @@ function App() {
 
   return (
     <div className='container'>
-      <div className="maintenance">
+      {/* <div className="maintenance">
         <p>Down for maintenance (1-2 hours)</p>
-      </div>
+      </div> */}
       <Header />
-      {/* <Entry />
+      <Entry />
       <div className="updates">
         <p>Added UBCO support (start with "ubco")</p>
-      </div> */}
+      </div>
       <div id="watermark">made by <a href="https://dburenok.com/">dmitriy</a> with <span id="icon_offset"><FaHeart color="orange" /></span></div>
       <div id="repo_link"><a href="https://github.com/dburenok/ubcgradebot-site">GitHub Repo</a></div>
     </div>

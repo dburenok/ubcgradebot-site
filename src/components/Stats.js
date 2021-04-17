@@ -1,11 +1,11 @@
-// import { useEffect } from 'react'
+import React from 'react'
 import Graph from './Graph'
 
 const Stats = ({ stats }) => {
 
     if (stats) {
         return (
-            <div>
+            <React.Fragment>
                 <div id="stats">
                     <h2>{stats['subject']} {stats['course']}</h2>
                     <h2>{stats['year']}{stats['semester']}</h2>
@@ -60,7 +60,7 @@ const Stats = ({ stats }) => {
                 <div id="graph">
                     <Graph graphData={stats['grade_dict']} />
                 </div>
-            </div>
+            </React.Fragment>
         )
     } else {
         return ""

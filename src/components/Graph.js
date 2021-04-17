@@ -18,6 +18,17 @@ const Graph = ({ graphData }) => {
           legend: {
             display: false,
           },
+          scales: {
+            yAxes: [{
+              display: false,
+            }],
+            xAxes: [{
+              display: true,
+              gridLines: {
+                display: false,
+              },
+            }],
+          }
         }} />
     </>
   )

@@ -3,18 +3,22 @@ import Stats from './Stats'
 
 const Entry = () => {
 
+  const [loading, setLoading] = useState(false)
   const [failed, setFailed] = useState(false)
   const [stats, setStats] = useState('')
   const [text, setText] = useState('')
 
   const onSubmit = (e) => {
     e.preventDefault()
+    setFailed(false)
+    setLoading(true)
     fetchGrades()
   }
 
   const fetchGrades = async () => {
     const res = await fetch('https://qpk05wiya3.execute-api.us-west-2.amazonaws.com/grades?userEntry=' + text)
     const data = await res.json()
+    setLoading(false)
     if (!data['failedQuery']) {
       setStats(data)
       setFailed(false)
@@ -31,9 +35,15 @@ const Entry = () => {
       </form>
 
       {(() => {
-        if (failed || stats['message'] === "Internal Server Error") {
+        if (loading) {
+          return <p className="loading">Loading...</p>
+        }
+      })()}
+
+      {(() => {
+        if ((failed || stats['message'] === "Internal Server Error")) {
           return <p style={{ color: "darkred" }}>Hmm... Something's not right.</p>
-        } else if (!failed && stats) {
+        } else if (!failed && stats && !loading) {
           return <Stats stats={stats} />
         }
       })()}

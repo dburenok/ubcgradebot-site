@@ -91,7 +91,6 @@ li {
   max-width: 275px;
   margin: 50px auto !important;
   background-color: #3f68ff;
-  /* background-color: #ff9696; */
   color: white;
   font-weight: normal;
   padding: 30px;
@@ -109,7 +108,7 @@ li {
   width: 275px;
   background-color: #f0ffff;
   color: #3b3b3b;
-  margin: 25px auto;
+  margin: 50px auto;
   text-align: center;
 }
 
@@ -131,4 +130,16 @@ li {
   font-size: 13px;
   list-style: square;
   padding: 15px;
+}
+
+.loading {
+  max-width: 275px;
+  margin: 50px auto !important;
+  background-color: #3f68ff;
+  color: white;
+  font-weight: bold;
+  padding: 30px;
+  border-radius: 10px;
+  font-size: 36px;
+  text-align: center;
 }

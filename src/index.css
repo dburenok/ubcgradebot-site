@@ -60,7 +60,6 @@ li {
   padding-left: 0;
   text-align: center;
   font-size: 24px;
-  /* font-weight: lighter; */
   line-height: 36px;
 }
 
@@ -104,4 +103,29 @@ li {
   width: 275px;
   height: 220px;
   margin: 0 auto;
+}
+
+.updates {
+  width: 250px;
+  background-color: #fff387;
+  color: #3b3b3b;
+  padding: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 50px auto;
+  margin-bottom: 25px;
+  border-radius: 5px;
+}
+
+.updates ul,
+li {
+  font-size: 14px;
+  line-height: 16px;
+  list-style: square;
+  margin: 0 auto;
+}
+
+.updates ul,
+li {
+  text-align: center;
 }

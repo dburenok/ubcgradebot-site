@@ -3,10 +3,16 @@ import Entry from './components/Entry'
 import { FaHeart } from 'react-icons/fa';
 
 function App() {
+
   return (
-    <div className="container">
+    <div className='container'>
       <Header />
       <Entry />
+      <div className="updates">
+        <ul>
+          <li>Added UBCO support (start with "ubco")</li>
+        </ul>
+      </div>
       <div id="watermark">made by <a href="https://dburenok.com/">dmitriy</a> with <span id="icon_offset"><FaHeart color="orange" /></span></div>
       <div id="repo_link"><a href="https://github.com/dburenok/ubcgradebot-site">GitHub Repo</a></div>
     </div>

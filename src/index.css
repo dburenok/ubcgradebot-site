@@ -12,6 +12,10 @@ h2 {
   margin-bottom: 0;
 }
 
+#mainlogo {
+  margin-bottom: 20px;
+}
+
 #watermark a {
   text-decoration: underline;
   color: orange;
@@ -131,13 +135,17 @@ li {
 }
 
 .tutorial {
-  width: 250px;
+  width: 200px;
   background-color: #f0ffff;
   color: #3b3b3b;
   border-radius: 40px;
-  margin: 50px auto;
+  margin: 0 auto;
   text-align: center;
   padding: 25px;
+  border-width: 5px;
+  border-style: dashed;
+  border-color: #8dcbcb;
+  margin-bottom: 25px;
 }
 
 .tutorial p {

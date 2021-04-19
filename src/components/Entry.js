@@ -34,12 +34,10 @@ const Entry = () => {
       {(() => {
         if (tutorial) {
           return (<div className="tutorial">
-            <h2>How do I use this?</h2>
-            <p>To see stats for a year range, enter "<span className="mono">MATH 101 2014-2020</span>" or just "<span className="mono">WRDS 150 2019</span>" for a single year.</p>
+            <h2>How To Use</h2>
+            <p>For a year range, enter "<span className="mono">math 101 2014-2020</span>" or just "<span className="mono">phil 220 2019</span>" for a single year.</p>
             <br />
             <p>You can also choose the session with "<span className="mono">2019s</span>" or "<span className="mono">2019w</span>".</p>
-            {/* <p> <span className="mono">math 101 2014-2020</span></p> */}
-            {/* <p>Do you do stuff</p> */}
           </div>)
         }
       })()}

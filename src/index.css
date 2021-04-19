@@ -82,13 +82,14 @@ li {
 .mainEntry {
   font-size: 18px;
   outline: none;
-  width: 230px;
+  width: 220px;
   padding: 10px;
   background-color: #f4f4f4;
   color: #3b3b3b;
   font-weight: normal;
   border-width: 0;
   margin: 20px;
+  text-align: center;
 }
 
 ::placeholder {

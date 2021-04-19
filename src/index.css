@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono&display=swap');
+
 body {
-  font-family: Helvetica, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 h1 {
@@ -30,7 +32,7 @@ h2 {
   color: lightgray;
 }
 
-#repo_link {
+#bottom_left {
   font-size: 14px;
   font-weight: bold;
   position: fixed;
@@ -39,9 +41,19 @@ h2 {
   color: lightgray;
 }
 
-#repo_link a {
+#bottom_left a {
   text-decoration: none;
   color: #3f68ff;
+}
+
+#stat_served {
+  text-decoration: none;
+  color: #3f68ff;
+  font-size: 14px;
+  font-weight: bold;
+  position: fixed;
+  top: 2px;
+  left: 5px;
 }
 
 #icon_offset {
@@ -135,35 +147,30 @@ li {
 }
 
 .tutorial {
-  width: 200px;
-  background-color: #f0ffff;
-  color: #3b3b3b;
-  border-radius: 40px;
+  font-family: Helvetica, sans-serif;
+  max-width: 750px;
+  background-color: #3f68ff;
+  color: #ffffff;
   margin: 0 auto;
   text-align: center;
   padding: 25px;
-  border-width: 5px;
-  border-style: dashed;
-  border-color: #8dcbcb;
   margin-bottom: 25px;
 }
 
 .tutorial p {
-  font-size: 15px;
+  font-size: 17px;
   padding: 0;
   margin: 0;
 }
 
 .tutorial h2 {
-  font-size: 18px;
   padding: 0;
   margin: 0;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .mono {
-  font-family: Courier;
-  font-weight: bold;
-  color: #000000;
-  padding: 3px;
+  font-family: 'DM Mono', monospace;
+  background-color: #7794ff;
+  padding: 2px 6px 2px 6px;
 }

@@ -35,9 +35,9 @@ const Entry = () => {
         if (tutorial) {
           return (<div className="tutorial">
             <h2>How To Use</h2>
-            <p>For a year range, enter "<span className="mono">math 101 2014-2020</span>" or just "<span className="mono">phil 220 2019</span>" for a single year.</p>
+            <p>For a year range, enter <span className="mono">math 101 2014-2020</span> or enter <span className="mono">phil 220 2019</span> for a single year.</p>
             <br />
-            <p>You can also choose the session with "<span className="mono">2019s</span>" or "<span className="mono">2019w</span>".</p>
+            <p>You can also choose the session with <span className="mono">2019s</span> or <span className="mono">2019w</span>.</p>
           </div>)
         }
       })()}

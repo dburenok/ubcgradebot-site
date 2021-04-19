@@ -104,20 +104,6 @@ li {
   margin: 0 auto;
 }
 
-.updates {
-  width: 275px;
-  background-color: #f0ffff;
-  color: #3b3b3b;
-  margin: 50px auto;
-  text-align: center;
-}
-
-.updates p {
-  font-size: 13px;
-  list-style: square;
-  padding: 15px;
-}
-
 .maintenance {
   width: 275px;
   background-color: #ffb5b5;
@@ -142,4 +128,34 @@ li {
   border-radius: 10px;
   font-size: 36px;
   text-align: center;
+}
+
+.tutorial {
+  width: 250px;
+  background-color: #f0ffff;
+  color: #3b3b3b;
+  border-radius: 40px;
+  margin: 50px auto;
+  text-align: center;
+  padding: 25px;
+}
+
+.tutorial p {
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+.tutorial h2 {
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.mono {
+  font-family: Courier;
+  font-weight: bold;
+  color: #000000;
+  padding: 3px;
 }

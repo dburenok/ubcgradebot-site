@@ -1,5 +1,4 @@
 # UBC Grade Bot
-## Lookup historical UBC grade distributions
 https://ubcgradebot.com/
 
 

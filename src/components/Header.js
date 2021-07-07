@@ -1,4 +1,4 @@
-import UBCGradeBotLogo from '../logo.svg';
+import UBCGradeBotLogo from '../img/logo.svg';
 
 const Header = () => {
   return (

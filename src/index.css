@@ -148,6 +148,8 @@ li {
 }
 
 .tutorial {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  border-radius: 30px;
   font-family: Helvetica, sans-serif;
   max-width: 750px;
   background-color: #3f68ff;
